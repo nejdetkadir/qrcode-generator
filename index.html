@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QRCODE GENERATOR</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 mx-auto">
+      <form id="form" method="post">
+        <div class="mb-3">
+          <input type="url" id="qrcode-url" class="form-control" placeholder="Enter your URL" required>
+        </div>
+        <div class="mb-3 text-center">
+          <button type="submit" class="btn btn-dark">CREATE QRCODE</button>
+        </div>
+      </form>
+      <hr>
+      <div class="text-center">
+        <img id="image-area">
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/App.js"></script>
+</body>
+</html>
