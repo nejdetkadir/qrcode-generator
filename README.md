@@ -1,5 +1,5 @@
 # qrcode-generator
-Sample qrcode generator. You can use from [here](qrcode-generator.nejdetkadirr.tech)
+Sample qrcode generator. You can use from [here](https://qrcode-generator.nejdetkadirr.tech)
 
 ![cover](doc/cover.png)
 
